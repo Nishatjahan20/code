@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sharpner</title>
+
+</head>
+
+<body bgcolor="#9fdbf5">
+
+  <h1 style= "color: Black; text-align: center;text-decoration-line: underline;">Registration Form</h1>
+
+  <form style="text-align: center;">
+
+     <label for="fname">First name:</label>
+
+        <input type="text" id="fname" name="fname" placeholder="First name"><br><br>
+
+        <label for="lname">Last name:</label>
+
+        <input type="text" id="lname" name="lname" placeholder="Last name"><br><br>
+
+        <label for="email">Email:</label>
+
+        <input type="text" id="email" name="email" placeholder="Email"><br><br>
+
+        <label for="pass">Password:</label>
+
+        <input type="Password" id="pass" name="pass" placeholder="Password"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+
+        <input type="Date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender: </label>
+
+        <input type="radio">Male
+
+        <input type="radio">Female<br><br>
+
+        <label for="role">Role in Institution:</label>
+
+        <select name="role" id="role">
+
+        <option selected>-- Select Role --</option>
+
+        <option>Faculty</option>
+
+        <option>Admin</option>
+
+        <option>Student</option>
+
+        <option>staff</option>
+
+        </select><br><br>
+
+        <input type="checkbox">I Agree with the terms and condition!<br><br>
+
+        <input type="submit" style="font-size: 20px; background-color: lime; ;" >
+
+      <br>
+
+  </form>
+
+</body>
+
+</html>
